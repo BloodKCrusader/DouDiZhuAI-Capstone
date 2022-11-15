@@ -1,5 +1,6 @@
-
+torch
 GitPython
 gitdb2
 rlcard
 tensorflow
+numpy
