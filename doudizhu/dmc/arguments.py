@@ -25,11 +25,11 @@ parser.add_argument('--load_model', action='store_true',
                     help='Load an existing model')
 parser.add_argument('--disable_checkpoint', action='store_true',
                     help='Disable saving checkpoint')
-parser.add_argument('--savedir', default='douzero_checkpoints',
+parser.add_argument('--savedir', default='checkpoints',
                     help='Root dir where experiment data will be saved')
 
 # Hyperparameters
-parser.add_argument('--total_frames', default=100000000000, type=int,
+parser.add_argument('--total_frames', default=1000000, type=int,
                     help='Total environment frames to train for')
 parser.add_argument('--exp_epsilon', default=0.01, type=float,
                     help='The probability for exploration')
