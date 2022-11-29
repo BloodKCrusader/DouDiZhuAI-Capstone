@@ -23,8 +23,8 @@
         "unroll_length": 100,
         "xpid": "doudizhu"
     },
-    "date_end": "2022-11-15 11:32:29.467789",
-    "date_start": "2022-11-15 11:16:23.201088",
+    "date_end": "2022-11-28 17:28:17.331011",
+    "date_start": "2022-11-28 17:13:10.573911",
     "env": {
         "ALI213_XQG_V2": "1510520,832",
         "ALLUSERSPROFILE": "C:\\ProgramData",
@@ -32,7 +32,7 @@
         "ASL.LOG": "Destination=file",
         "CHOCOLATEYINSTALL": "C:\\ProgramData\\chocolatey",
         "CHOCOLATEYLASTPATHUPDATE": "132536045581210108",
-        "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_23812_POSHPRJKSINRDVEC",
+        "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_8852_RVAOFEWNGZTSDQEB",
         "COLORTERM": "truecolor",
         "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
         "COMMONPROGRAMFILES(X86)": "C:\\Program Files (x86)\\Common Files",
@@ -69,7 +69,7 @@
         "ONEDRIVECONSUMER": "C:\\Users\\BKCrusader\\OneDrive",
         "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
         "OS": "Windows_NT",
-        "PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\libnvvp;;;;;;C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\wbem;C:\\WINDOWS\\system32\\windowspowershell\\v1.0\\;c:\\program files (x86)\\nvidia corporation\\physx\\common;c:\\program files\\common files\\oracle\\java\\javapath;c:\\python39\\scripts\\;c:\\python39\\;c:\\program files\\oculus\\support\\oculus-runtime;c:\\program files (x86)\\common files\\oracle\\java\\javapath;c:\\windows\\system32;c:\\windows;c:\\windows\\system32\\wbem;c:\\windows\\system32\\windowspowershell\\v1.0\\;c:\\program files\\microsoft sql server\\client sdk\\odbc\\110\\tools\\binn\\;c:\\program files (x86)\\microsoft sql server\\120\\tools\\binn\\;c:\\program files\\microsoft sql server\\120\\tools\\binn\\;c:\\program files\\microsoft sql server\\120\\dts\\binn\\;c:\\program files (x86)\\windows kits\\8.1\\windows performance toolkit\\;c:\\personal\\calibre2\\;c:\\program files (x86)\\gtksharp\\2.12\\bin;c:\\program files\\dotnet\\;c:\\program files\\microsoft sql server\\130\\tools\\binn\\;c:\\windows\\system32\\openssh\\;c:\\program files\\nvidia corporation\\nvidia nvdlisr;c:\\program files (x86)\\ivi foundation\\visa\\winnt\\bin\\;c:\\program files\\ivi foundation\\visa\\win64\\bin\\;c:\\program files (x86)\\ivi foundation\\visa\\winnt\\bin;c:\\personal\\matlab\\r2018b\\runtime\\win64;c:\\personal\\matlab\\r2018b\\bin;c:\\personal\\putty\\;c:\\programdata\\chocolatey\\bin;c:\\personal\\nodejs\\;C:\\WINDOWS\\system32\\openssh\\;c:\\python310;c:\\program files\\microsoft sql server\\client sdk\\odbc\\170\\tools\\binn\\;c:\\program files (x86)\\microsoft sql server\\150\\tools\\binn\\;c:\\program files\\microsoft sql server\\150\\tools\\binn\\;c:\\program files\\microsoft sql server\\150\\dts\\binn\\;c:\\program files (x86)\\microsoft sql server\\150\\dts\\binn\\;c:\\program files\\azure data studio\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.0\\;C:\\Users\\BKCrusader\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\BKCrusader\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Program Files\\Python39;C:\\Users\\BKCrusader\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Personal\\mingw-w64\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin;C:\\Personal\\cygwin64\\bin;C:\\Users\\BKCrusader\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\BKCrusader\\AppData\\Roaming\\npm;C:\\Personal\\JetBrains\\IntelliJ IDEA Community Edition 2020.3.2\\bin;;C:\\Personal\\Microsoft VS Code\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Users\\BKCrusader\\.dotnet\\tools;C:\\Personal\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Users\\BKCrusader\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\Scripts;",
+        "PATH": "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.7\\libnvvp;;;;;;C:\\Program Files\\Microsoft\\jdk-11.0.12.7-hotspot\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\wbem;C:\\WINDOWS\\system32\\windowspowershell\\v1.0\\;c:\\program files (x86)\\nvidia corporation\\physx\\common;c:\\program files\\common files\\oracle\\java\\javapath;c:\\python39\\scripts\\;c:\\python39\\;c:\\program files\\oculus\\support\\oculus-runtime;c:\\program files (x86)\\common files\\oracle\\java\\javapath;c:\\windows\\system32;c:\\windows;c:\\windows\\system32\\wbem;c:\\windows\\system32\\windowspowershell\\v1.0\\;c:\\program files\\microsoft sql server\\client sdk\\odbc\\110\\tools\\binn\\;c:\\program files (x86)\\microsoft sql server\\120\\tools\\binn\\;c:\\program files\\microsoft sql server\\120\\tools\\binn\\;c:\\program files\\microsoft sql server\\120\\dts\\binn\\;c:\\program files (x86)\\windows kits\\8.1\\windows performance toolkit\\;c:\\personal\\calibre2\\;c:\\program files (x86)\\gtksharp\\2.12\\bin;c:\\program files\\dotnet\\;c:\\program files\\microsoft sql server\\130\\tools\\binn\\;c:\\windows\\system32\\openssh\\;c:\\program files\\nvidia corporation\\nvidia nvdlisr;c:\\program files (x86)\\ivi foundation\\visa\\winnt\\bin\\;c:\\program files\\ivi foundation\\visa\\win64\\bin\\;c:\\program files (x86)\\ivi foundation\\visa\\winnt\\bin;c:\\personal\\matlab\\r2018b\\runtime\\win64;c:\\personal\\matlab\\r2018b\\bin;c:\\personal\\putty\\;c:\\programdata\\chocolatey\\bin;c:\\personal\\nodejs\\;C:\\WINDOWS\\system32\\openssh\\;c:\\python310;c:\\program files\\microsoft sql server\\client sdk\\odbc\\170\\tools\\binn\\;c:\\program files (x86)\\microsoft sql server\\150\\tools\\binn\\;c:\\program files\\microsoft sql server\\150\\tools\\binn\\;c:\\program files\\microsoft sql server\\150\\dts\\binn\\;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2022.2.0\\;C:\\Users\\BKCrusader\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\;C:\\Users\\BKCrusader\\AppData\\Local\\Programs\\Python\\Python39\\;C:\\Program Files\\Python39;C:\\Users\\BKCrusader\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Personal\\mingw-w64\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin;C:\\Personal\\cygwin64\\bin;C:\\Users\\BKCrusader\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\BKCrusader\\AppData\\Roaming\\npm;C:\\Personal\\JetBrains\\IntelliJ IDEA Community Edition 2020.3.2\\bin;;C:\\Personal\\Microsoft VS Code\\bin;C:\\Program Files\\Azure Data Studio\\bin;C:\\Users\\BKCrusader\\.dotnet\\tools;C:\\Personal\\PyCharm Community Edition 2022.2.3\\bin;;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v11.8\\bin;C:\\Users\\BKCrusader\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python39\\Scripts;",
         "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
         "PROCESSOR_ARCHITECTURE": "AMD64",
         "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
@@ -111,7 +111,7 @@
     },
     "git": {
         "branch": "main",
-        "commit": "5a512e9ae5b49a96581d47148b8a8e02f4740d03",
+        "commit": "940e2f0c6aca0569c9766870d51dda6fee91d984",
         "is_dirty": true,
         "path": "C:\\Users\\BKCrusader\\Desktop\\Desktop\\Github\\DouDiZhuAI-Capstone\\.git"
     },

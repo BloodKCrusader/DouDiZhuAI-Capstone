@@ -81,6 +81,8 @@ def evaluate(landlord, landlord_up, landlord_down, eval_data, num_workers):
         num_farmer_scores += result[3]
 
     num_total_wins = num_landlord_wins + num_farmer_wins
+    print('Total Games:')
+    print(num_total_wins)
     print('WP results:')
     print('landlord : Farmers - {} : {}'.format(num_landlord_wins / num_total_wins, num_farmer_wins / num_total_wins))
     print('ADP results:')
