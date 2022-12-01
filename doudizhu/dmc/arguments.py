@@ -3,9 +3,9 @@ import argparse
 parser = argparse.ArgumentParser(description='DouDiZhuAI: Deep MCTS')
 
 # General Settings
-parser.add_argument('--xpid', default='doudizhuADP',
+parser.add_argument('--xpid', default='doudizhuADP0_001LR',
                     help='Experiment id (default: doudizhu)')
-parser.add_argument('--save_interval', default=30, type=int,
+parser.add_argument('--save_interval', default=15, type=int,
                     help='Time interval (in minutes) at which to save the model')    
 parser.add_argument('--objective', default='adp', type=str, choices=['adp', 'wp', 'logadp'],
                     help='Use ADP or WP as reward (default: ADP)')    
@@ -45,7 +45,7 @@ parser.add_argument('--max_grad_norm', default=40., type=float,
                     help='Max norm of gradients')
 
 # Optimizer settings
-parser.add_argument('--learning_rate', default=0.01, type=float,
+parser.add_argument('--learning_rate', default=0.001, type=float,
                     help='Learning rate')
 parser.add_argument('--alpha', default=0.99, type=float,
                     help='RMSProp smoothing constant')
