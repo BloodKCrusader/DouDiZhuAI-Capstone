@@ -6,8 +6,12 @@ from doudizhu.evaluation.simulation import evaluate
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
                     'Dou Dizhu Evaluation')
-    parser.add_argument('--landlord', type=str,
-            default='checkpoints/doudizhuADP/landlord_weights_50035200.ckpt')
+    #parser.add_argument('--landlord', type=str,
+            #default='checkpoints/doudizhuADP0_0001/landlord_weights_56640000.ckpt')
+    #parser.add_argument('--landlord', type=str,
+                        #default='baselines/sl/landlord.ckpt')
+    parser.add_argument('--landlord', type=str, default='random')
+    #parser.add_argument('--landlord', type=str, default='rlcard')
 
     #parser.add_argument('--landlord_up', type=str,
                         #default='baselines/sl/landlord_up.ckpt')
