@@ -6,22 +6,22 @@ from doudizhu.evaluation.simulation import evaluate
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
                     'Dou Dizhu Evaluation')
-    #parser.add_argument('--landlord', type=str,
-            #default='checkpoints/doudizhuADP0_0001/landlord_weights_56640000.ckpt')
+    parser.add_argument('--landlord', type=str,
+            default='checkpoints/doudizhu/landlord_weights_165280000.ckpt')
     #parser.add_argument('--landlord', type=str,
                         #default='baselines/sl/landlord.ckpt')
-    parser.add_argument('--landlord', type=str, default='random')
+    #parser.add_argument('--landlord', type=str, default='random')
     #parser.add_argument('--landlord', type=str, default='rlcard')
 
-    #parser.add_argument('--landlord_up', type=str,
-                        #default='baselines/sl/landlord_up.ckpt')
+    parser.add_argument('--landlord_up', type=str,
+                        default='baselines/sl/landlord_up.ckpt')
     #parser.add_argument('--landlord_up', type=str, default='random')
-    parser.add_argument('--landlord_up', type=str, default='rlcard')
+    #parser.add_argument('--landlord_up', type=str, default='rlcard')
 
-    #parser.add_argument('--landlord_down', type=str,
-                        #default='baselines/sl/landlord_down.ckpt')
+    parser.add_argument('--landlord_down', type=str,
+                        default='baselines/sl/landlord_down.ckpt')
     #parser.add_argument('--landlord_down', type=str, default='random')
-    parser.add_argument('--landlord_down', type=str, default='rlcard')
+    #parser.add_argument('--landlord_down', type=str, default='rlcard')
 
     parser.add_argument('--eval_data', type=str,
             default='eval_data.pkl')

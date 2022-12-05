@@ -8,7 +8,7 @@
         "exp_epsilon": 0.01,
         "gpu_devices": "0",
         "learning_rate": 0.001,
-        "load_model": false,
+        "load_model": true,
         "max_grad_norm": 40.0,
         "momentum": 0,
         "num_actor_devices": 1,
@@ -23,8 +23,8 @@
         "unroll_length": 100,
         "xpid": "doudizhuADP0_0001"
     },
-    "date_end": null,
-    "date_start": "2022-12-02 23:47:41.839132",
+    "date_end": "2022-12-04 08:21:46.580871",
+    "date_start": "2022-12-04 03:15:10.158399",
     "env": {
         "ALI213_XQG_V2": "1510520,832",
         "ALLUSERSPROFILE": "C:\\ProgramData",
@@ -32,7 +32,7 @@
         "ASL.LOG": "Destination=file",
         "CHOCOLATEYINSTALL": "C:\\ProgramData\\chocolatey",
         "CHOCOLATEYLASTPATHUPDATE": "132536045581210108",
-        "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_29604_OWZMQTESMVRXIWCQ",
+        "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_36336_EEMQVNCXGSYZLYBU",
         "COLORTERM": "truecolor",
         "COMMONPROGRAMFILES": "C:\\Program Files\\Common Files",
         "COMMONPROGRAMFILES(X86)": "C:\\Program Files (x86)\\Common Files",
@@ -111,11 +111,11 @@
     },
     "git": {
         "branch": "main",
-        "commit": "e13f60f891f402947be85cfe4a1f54196228eb67",
+        "commit": "ed4fb9e2ea1bbe0e57be8263ae37260947ec14ea",
         "is_dirty": true,
         "path": "C:\\Users\\BKCrusader\\Desktop\\Desktop\\Github\\DouDiZhuAI-Capstone\\.git"
     },
     "slurm": null,
-    "successful": false,
+    "successful": true,
     "xpid": "doudizhuADP0_0001"
 }

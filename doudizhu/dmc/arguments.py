@@ -3,7 +3,7 @@ import argparse
 parser = argparse.ArgumentParser(description='DouDiZhuAI: Deep MCTS')
 
 # General Settings
-parser.add_argument('--xpid', default='doudizhuADP0_0001',
+parser.add_argument('--xpid', default='doudizhuADP0_0001LR',
                     help='Experiment id (default: doudizhu)')
 parser.add_argument('--save_interval', default=15, type=int,
                     help='Time interval (in minutes) at which to save the model')    
@@ -29,7 +29,7 @@ parser.add_argument('--savedir', default='checkpoints',
                     help='Root dir where experiment data will be saved')
 
 # Hyperparameters
-parser.add_argument('--total_frames', default=100000000, type=int,
+parser.add_argument('--total_frames', default=100000000000, type=int,
                     help='Total environment frames to train for')
 parser.add_argument('--exp_epsilon', default=0.01, type=float,
                     help='The probability for exploration')
@@ -39,13 +39,13 @@ parser.add_argument('--unroll_length', default=100, type=int,
                     help='The unroll length (time dimension)')
 parser.add_argument('--num_buffers', default=50, type=int,
                     help='Number of shared-memory buffers')
-parser.add_argument('--num_threads', default=4, type=int,
+parser.add_argument('--num_threads', default=6, type=int,
                     help='Number learner threads')
 parser.add_argument('--max_grad_norm', default=40., type=float,
                     help='Max norm of gradients')
 
 # Optimizer settings
-parser.add_argument('--learning_rate', default=0.001, type=float,
+parser.add_argument('--learning_rate', default=0.0001, type=float,
                     help='Learning rate')
 parser.add_argument('--alpha', default=0.99, type=float,
                     help='RMSProp smoothing constant')
